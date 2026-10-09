@@ -1,0 +1,10 @@
+{
+  "alerts_loaded": 1968,
+  "outputs": {
+    "soc_alerts": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\elk_ingest\\soc_alerts\\soc_alerts.jsonl",
+    "suricata_eve": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\elk_ingest\\suricata\\eve.json",
+    "zeek_conn": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\elk_ingest\\zeek\\conn.json",
+    "nids_predictions": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\elk_ingest\\nids\\nids_predictions.jsonl"
+  },
+  "note": "Suricata and Zeek files are simulated from dataset alerts until real PCAP/live lab traffic is available."
+}

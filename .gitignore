@@ -1,0 +1,48 @@
+﻿# Python environment
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Raw datasets and archives
+data/raw/
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Large/regenerable vector DB
+data/mitre/chroma_db/
+
+# Runtime/log files
+*.log
+logs/
+tmp/
+temp/
+
+# Docker/runtime artifacts
+docker/elasticsearch/
+docker/kibana/
+docker/logstash/data/
+docker/logstash/logs/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Streamlit cache
+.streamlit/secrets.toml
+
+# Optional generated package files
+AI-SOC-Copilot-Core-Deliverables.zip
+AI-SOC-Copilot-Final-Deliverables.zip
+
+# Local backups and retry copies
+*_backup*.py
+*_backup_*.py
+docker/logstash/pipeline_backups/
+data/elk_ingest/zeek_real/*-retry.json
+data/elk_ingest/zeek_real/*-final.json
+data/elk_ingest/suricata_real/*-final.json

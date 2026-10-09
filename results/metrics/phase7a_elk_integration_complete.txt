@@ -1,0 +1,15 @@
+﻿Phase 7A ELK integration complete.
+
+Completed:
+- Elasticsearch running on localhost:9200
+- Kibana running on localhost:5601
+- Logstash ingesting local project events
+- Dataset SOC alerts indexed
+- Suricata-style events indexed
+- Zeek-style events indexed
+- NIDS prediction events indexed
+- ELK live Streamlit view created
+
+Current limitation:
+Suricata and Zeek streams are simulated from dataset-derived alerts.
+Next phase replaces simulated streams with real sensor logs from a VMware/Kali/Ubuntu lab.

@@ -1,0 +1,11 @@
+{
+  "triage_rows": 10,
+  "action_proposals": 10,
+  "simulated_only": true,
+  "outputs": {
+    "proposals_csv": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\actions\\response_action_proposals.csv",
+    "proposals_jsonl": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\actions\\response_action_proposals.jsonl",
+    "audit_csv": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\actions\\response_action_audit_log.csv",
+    "audit_jsonl": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\actions\\response_action_audit_log.jsonl"
+  }
+}

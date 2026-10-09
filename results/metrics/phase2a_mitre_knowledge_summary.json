@@ -1,0 +1,13 @@
+{
+  "source_mode": "mitre_stix_download",
+  "technique_records": 697,
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "vector_store": "chroma",
+  "collection_name": "mitre_attack_enterprise",
+  "outputs": {
+    "stix_json": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\mitre\\enterprise-attack.json",
+    "techniques_csv": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\mitre\\mitre_attack_techniques.csv",
+    "chunks_jsonl": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\mitre\\mitre_attack_chunks.jsonl",
+    "chroma_dir": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\mitre\\chroma_db"
+  }
+}

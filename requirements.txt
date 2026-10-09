@@ -1,0 +1,13 @@
+﻿pandas
+numpy
+scikit-learn
+streamlit
+plotly
+pydantic
+requests
+python-dotenv
+joblib
+sentence-transformers
+chromadb
+faiss-cpu
+elasticsearch

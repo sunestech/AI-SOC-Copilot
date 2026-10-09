@@ -1,0 +1,18 @@
+﻿# Phase 8F Real Sensor AI Triage Dashboard Complete
+
+Author: Sunday Esumike, PhD
+
+Completed:
+- Created Streamlit dashboard for real sensor AI triage.
+- Dashboard reads soc-copilot-real-triage-v2-* from Elasticsearch.
+- Dashboard shows AI severity, kill-chain stage, MITRE technique, summary, and recommended action.
+- Dashboard loads the linked raw Suricata or Zeek document using raw_index and raw_id.
+- Dashboard supports filtering by sensor, severity, and search text.
+
+Files:
+- src/dashboard/12_streamlit_real_sensor_triage_view.py
+- results/real_triage/phase8e_real_sensor_triage.csv
+- results/real_triage/phase8e_real_sensor_triage.jsonl
+
+Pipeline:
+Kali VM -> Ubuntu Sensor VM -> Suricata/Zeek -> Logstash -> Elasticsearch -> AI triage -> Streamlit dashboard

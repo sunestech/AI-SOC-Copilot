@@ -1,0 +1,75 @@
+input {
+  file {
+    id => "soc_alerts_jsonl"
+    path => "/usr/share/logstash/ingest/soc_alerts/*.jsonl"
+    mode => "read"
+    start_position => "beginning"
+    sincedb_path => "/dev/null"
+    codec => "json"
+    add_field => { "event_source" => "soc_dataset_alert" }
+  }
+
+  file {
+    id => "suricata_eve_json"
+    path => "/usr/share/logstash/ingest/suricata/eve.json"
+    mode => "read"
+    start_position => "beginning"
+    sincedb_path => "/dev/null"
+    codec => "json"
+    add_field => { "event_source" => "suricata" }
+  }
+
+  file {
+    id => "zeek_json"
+    path => "/usr/share/logstash/ingest/zeek/*.json"
+    mode => "read"
+    start_position => "beginning"
+    sincedb_path => "/dev/null"
+    codec => "json"
+    add_field => { "event_source" => "zeek" }
+  }
+
+  file {
+    id => "nids_predictions_jsonl"
+    path => "/usr/share/logstash/ingest/nids/*.jsonl"
+    mode => "read"
+    start_position => "beginning"
+    sincedb_path => "/dev/null"
+    codec => "json"
+    add_field => { "event_source" => "nids_model" }
+  }
+}
+
+filter {
+  mutate {
+    add_field => { "soc_copilot_project" => "AI-SOC-Copilot" }
+  }
+}
+
+output {
+  if [event_source] == "suricata" {
+    elasticsearch {
+      hosts => ["http://elasticsearch:9200"]
+      index => "soc-alerts-suricata-%{+YYYY.MM.dd}"
+    }
+  } else if [event_source] == "zeek" {
+    elasticsearch {
+      hosts => ["http://elasticsearch:9200"]
+      index => "soc-alerts-zeek-%{+YYYY.MM.dd}"
+    }
+  } else if [event_source] == "nids_model" {
+    elasticsearch {
+      hosts => ["http://elasticsearch:9200"]
+      index => "nids-predictions-%{+YYYY.MM.dd}"
+    }
+  } else {
+    elasticsearch {
+      hosts => ["http://elasticsearch:9200"]
+      index => "soc-alerts-dataset-%{+YYYY.MM.dd}"
+    }
+  }
+
+  stdout {
+    codec => dots
+  }
+}

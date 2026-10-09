@@ -1,0 +1,8 @@
+audit_id,action_id,alert_id,decision,proposed_action,target,analyst,decision_reason,timestamp_utc,simulated_only
+audit-000001,act-000001,soc-000001,approved,monitor_only,unknown-source,Sunday Esumike,Reviewed in dashboard. This is a simulated action for lab workflow validation.,2026-10-05T19:42:43.411216+00:00,True
+audit-000002,act-000001,soc-000001,rejected,monitor_only,unknown-source,Sunday Esumike,Reviewed in dashboard. This is a simulated action for lab workflow validation.,2026-10-05T19:42:54.763466+00:00,True
+audit-000003,act-000001,soc-000001,approved,monitor_only,unknown-source,shubham,Reviewed in dashboard. This is a simulated action for lab workflow validation.,2026-10-05T19:43:12.742813+00:00,True
+audit-000004,act-000001,soc-000001,rejected,monitor_only,unknown-source,Tushan,Reviewed in dashboard. This is a simulated action for lab workflow validation.,2026-10-05T19:43:19.471590+00:00,True
+audit-000005,act-000004,soc-000004,approved,monitor_only,unknown-source,Sunday Esumike,Reviewed in dashboard. This is a simulated action for lab workflow validation.,2026-10-07T00:10:34.569407+00:00,True
+audit-000006,act-000004,soc-000004,rejected,monitor_only,unknown-source,Sunday Esumike,Reviewed in dashboard. This is a simulated action for lab workflow validation.,2026-10-07T00:10:58.396746+00:00,True
+audit-000007,act-000004,soc-000004,approved,monitor_only,unknown-source,Sunday Esumike,Reviewed in dashboard. This is a simulated action for lab workflow validation.,2026-10-07T00:11:26.556554+00:00,True

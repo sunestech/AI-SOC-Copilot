@@ -1,0 +1,16 @@
+{
+  "alerts_triaged": 10,
+  "top_k": 5,
+  "model": "llama3.1:8b",
+  "fallback_only": false,
+  "valid_json_rate": 1.0,
+  "triage_mode_counts": {
+    "ollama": 10
+  },
+  "elapsed_seconds": 323.0685601234436,
+  "avg_seconds_per_alert": 32.30685601234436,
+  "outputs": {
+    "jsonl": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\triage\\soc_copilot_triage_sample.jsonl",
+    "csv": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\triage\\soc_copilot_triage_sample.csv"
+  }
+}

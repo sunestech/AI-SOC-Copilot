@@ -1,0 +1,24 @@
+﻿# Phase 8C Real Sensor to Elasticsearch Complete
+
+Author: Sunday Esumike, PhD
+
+Completed:
+- Kali generated live lab traffic.
+- Ubuntu Sensor captured traffic on ens33.
+- Suricata generated real eve.json events.
+- Zeek generated real conn/dns/ssl logs.
+- Zeek logs were converted to JSON.
+- Real Suricata events were copied into the ELK ingest folder.
+- Real Zeek events were copied into the ELK ingest folder.
+- Logstash ingested real sensor data.
+- Elasticsearch created real sensor indices.
+
+Confirmed Elasticsearch Counts:
+- soc-alerts-suricata-real-2026.10.08 = 23,376 documents
+- soc-alerts-zeek-real-2026.10.08 = 8,296 documents
+
+Current real pipeline:
+Kali traffic -> Ubuntu Sensor -> Suricata/Zeek -> Logstash -> Elasticsearch
+
+Next phase:
+Update Streamlit dashboard so it can display real Suricata and Zeek indices directly.

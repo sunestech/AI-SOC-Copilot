@@ -1,0 +1,1 @@
+Phase 8E complete: real sensor events triaged and written to Elasticsearch.

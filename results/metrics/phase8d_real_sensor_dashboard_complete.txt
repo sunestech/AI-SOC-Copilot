@@ -1,0 +1,17 @@
+﻿# Phase 8D Real Sensor Dashboard Complete
+
+Author: Sunday Esumike, PhD
+
+Completed:
+- Created dedicated real sensor Streamlit dashboard.
+- Dashboard shows Real Suricata alerts/flows.
+- Dashboard shows Real Zeek telemetry.
+- Dashboard includes Combined balanced view.
+- Dashboard includes Zeek-only and side-by-side views.
+- Confirmed that Zeek appears as telemetry, not signature alerts.
+
+Real live-lab pipeline:
+Kali VM -> Ubuntu Sensor VM -> Suricata/Zeek -> Logstash -> Elasticsearch -> Streamlit
+
+Dashboard file:
+src/dashboard/11_streamlit_real_sensor_view.py

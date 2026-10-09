@@ -1,0 +1,11 @@
+action_id,alert_id,label,severity,kill_chain_stage,attack_techniques,proposed_action,target,status,reason,created_utc,simulated_only
+act-000001,soc-000001,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.693742+00:00,True
+act-000002,soc-000002,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.693742+00:00,True
+act-000003,soc-000003,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.693742+00:00,True
+act-000004,soc-000004,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.694743+00:00,True
+act-000005,soc-000005,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.694743+00:00,True
+act-000006,soc-000006,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.694743+00:00,True
+act-000007,soc-000007,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.694743+00:00,True
+act-000008,soc-000008,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.694743+00:00,True
+act-000009,soc-000009,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.694743+00:00,True
+act-000010,soc-000010,BENIGN,low,Benign Activity,,monitor_only,unknown-source,pending_approval,Low-severity or benign activity should be monitored without containment.,2026-10-05T19:37:43.694743+00:00,True

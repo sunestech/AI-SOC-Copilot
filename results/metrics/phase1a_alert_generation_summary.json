@@ -1,0 +1,48 @@
+{
+  "random_seed": 42,
+  "source_directory": "TrafficLabelling",
+  "csv_files_processed": 8,
+  "alerts_generated": 1968,
+  "max_attack_alerts_per_label": 150,
+  "max_benign_records": 100,
+  "source_label_counts": {
+    "BENIGN": 2273097,
+    "Bot": 1966,
+    "DDoS": 128027,
+    "DoS GoldenEye": 10293,
+    "DoS Hulk": 231073,
+    "DoS Slowhttptest": 5499,
+    "DoS slowloris": 5796,
+    "FTP-Patator": 7938,
+    "Heartbleed": 11,
+    "Infiltration": 36,
+    "PortScan": 158930,
+    "SSH-Patator": 5897,
+    "Web Attack - Brute Force": 1507,
+    "Web Attack - Sql Injection": 21,
+    "Web Attack - XSS": 652,
+    "nan": 288602
+  },
+  "selected_by_label": {
+    "BENIGN": 100,
+    "Bot": 150,
+    "DDoS": 150,
+    "DoS GoldenEye": 150,
+    "DoS Hulk": 150,
+    "DoS Slowhttptest": 150,
+    "DoS slowloris": 150,
+    "FTP-Patator": 150,
+    "Heartbleed": 11,
+    "Infiltration": 36,
+    "PortScan": 150,
+    "SSH-Patator": 150,
+    "Web Attack - Brute Force": 150,
+    "Web Attack - Sql Injection": 21,
+    "Web Attack - XSS": 150,
+    "nan": 150
+  },
+  "outputs": {
+    "jsonl": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\sample_alerts\\soc_alerts_sample.jsonl",
+    "csv": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\sample_alerts\\soc_alerts_sample.csv"
+  }
+}

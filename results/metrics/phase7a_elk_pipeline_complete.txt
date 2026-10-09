@@ -1,0 +1,14 @@
+﻿Phase 7A ELK pipeline complete.
+
+Completed:
+- Elasticsearch running on localhost:9200
+- Kibana running on localhost:5601
+- Logstash running and ingesting project alert files
+- Dataset SOC alerts indexed into soc-alerts-dataset-*
+- Simulated Suricata events indexed into soc-alerts-suricata-*
+- Simulated Zeek events indexed into soc-alerts-zeek-*
+- NIDS prediction events indexed into nids-predictions-*
+
+Note:
+Suricata and Zeek streams are currently simulated from dataset-derived alerts.
+Real Suricata/Zeek live sensor output will replace these files in the VMware/Ubuntu/Kali lab phase.

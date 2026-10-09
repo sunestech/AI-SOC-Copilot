@@ -1,0 +1,41 @@
+{
+  "alerts_available": 1968,
+  "alerts_evaluated": 48,
+  "per_label": 3,
+  "top_k": 5,
+  "model": "llama3.1:8b",
+  "fallback_only": false,
+  "elapsed_seconds": 2552.090939283371,
+  "avg_seconds_per_alert": 53.16856123507023,
+  "source_label_counts": {
+    "BENIGN": 100,
+    "DDoS": 150,
+    "PortScan": 150,
+    "Bot": 150,
+    "Infiltration": 36,
+    "Web Attack - Brute Force": 150,
+    "Web Attack - XSS": 150,
+    "Web Attack - Sql Injection": 21,
+    "nan": 150,
+    "FTP-Patator": 150,
+    "SSH-Patator": 150,
+    "DoS Hulk": 150,
+    "DoS Slowhttptest": 150,
+    "DoS slowloris": 150,
+    "DoS GoldenEye": 150,
+    "Heartbleed": 11
+  },
+  "severity_accuracy": 0.8125,
+  "stage_accuracy": 0.7916666666666666,
+  "technique_match_rate": 0.2,
+  "triage_mode_counts": {
+    "ollama": 47,
+    "ollama_retry": 1
+  },
+  "outputs": {
+    "eval_alerts": "C:\\Users\\sunda\\AI-SOC-Copilot\\data\\sample_alerts\\eval_alerts_stratified.jsonl",
+    "hand_label_template": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\evaluation\\hand_labeled_alerts_template.csv",
+    "eval_csv": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\evaluation\\phase4a_eval_results.csv",
+    "eval_jsonl": "C:\\Users\\sunda\\AI-SOC-Copilot\\results\\evaluation\\phase4a_eval_results.jsonl"
+  }
+}

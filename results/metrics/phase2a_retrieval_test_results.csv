@@ -1,0 +1,126 @@
+alert_id,label,severity_hint,alert_title,rank,technique_id,technique_name,tactics,distance,url
+soc-000001,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000001,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000001,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000001,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000001,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000002,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000002,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000002,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000002,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000002,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000003,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000003,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000003,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000003,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000003,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000004,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000004,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000004,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000004,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000004,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000005,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000005,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000005,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000005,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000005,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000006,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000006,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000006,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000006,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000006,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000007,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000007,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000007,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000007,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000007,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000008,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000008,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000008,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000008,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000008,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000009,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000009,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000009,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000009,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000009,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000010,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000010,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000010,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000010,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000010,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000011,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000011,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000011,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000011,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000011,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000012,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000012,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000012,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000012,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000012,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000013,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000013,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000013,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000013,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000013,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000014,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000014,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000014,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000014,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000014,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000015,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000015,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000015,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000015,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000015,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000016,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000016,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000016,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000016,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000016,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000017,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000017,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000017,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000017,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000017,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000018,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000018,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000018,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000018,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000018,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000019,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000019,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000019,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000019,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000019,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000020,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000020,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000020,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000020,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000020,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000021,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000021,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000021,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000021,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000021,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000022,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000022,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000022,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000022,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000022,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000023,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000023,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000023,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000023,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000023,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000024,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000024,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000024,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000024,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000024,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498
+soc-000025,BENIGN,low,Normal network-flow baseline record,1,T1016.001,Internet Connection Discovery,discovery,0.5775107145309448,https://attack.mitre.org/techniques/T1016/001
+soc-000025,BENIGN,low,Normal network-flow baseline record,2,T1665,Hide Infrastructure,command-and-control,0.599423348903656,https://attack.mitre.org/techniques/T1665
+soc-000025,BENIGN,low,Normal network-flow baseline record,3,T1029,Scheduled Transfer,exfiltration,0.609161376953125,https://attack.mitre.org/techniques/T1029
+soc-000025,BENIGN,low,Normal network-flow baseline record,4,T1070.007,Clear Network Connection History and Configurations,stealth,0.609524130821228,https://attack.mitre.org/techniques/T1070/007
+soc-000025,BENIGN,low,Normal network-flow baseline record,5,T1498,Network Denial of Service,impact,0.6161596179008484,https://attack.mitre.org/techniques/T1498

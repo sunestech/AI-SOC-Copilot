@@ -1,0 +1,13 @@
+﻿Phase 5 Streamlit SOC dashboard complete.
+
+Dashboard includes:
+- Executive overview
+- SOC alert stream
+- Raw alert and AI triage side-by-side view
+- Severity and kill-chain filters
+- MITRE ATT&CK retrieval explorer
+- Manual triage lab
+- Evaluation dashboard
+- Upload alert lab
+- Project health check
+- About project page
