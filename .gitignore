@@ -46,3 +46,11 @@ docker/logstash/pipeline_backups/
 data/elk_ingest/zeek_real/*-retry.json
 data/elk_ingest/zeek_real/*-final.json
 data/elk_ingest/suricata_real/*-final.json
+
+# Local backups and duplicate ingest retry copies
+*_backup*.py
+*_backup_*.py
+docker/logstash/pipeline_backups/
+data/elk_ingest/zeek_real/*-retry.json
+data/elk_ingest/zeek_real/*-final.json
+data/elk_ingest/suricata_real/*-final.json
